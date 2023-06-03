@@ -1,0 +1,82 @@
+/*Estilo Selector Etiqueta:*/
+body{
+    background: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: rgb(61, 107, 48);
+    height: 100px;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+}
+nav{
+    height:50px;
+    background:rgb(64, 52, 85);
+    border: 1px solid;
+    margin: 0px;
+}
+
+nav ul li{
+    list-style: none;
+    float: left;
+    margin: 10px;
+    text-align: center;
+}
+
+aside{
+    /*width: 20%;*/
+    width: calc(20% - 20px);
+    background: rgb(189, 39, 64);
+    float:left;
+    min-height: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer{
+    height: 100px;
+    text-align: center;
+    background:rgb(189, 39, 64);
+    color: white;
+    line-height: 100px;    
+}
+
+/*Estilo Selector de id*/
+#contenido{
+    width: 90%;
+    border: 1px solid black;
+    margin: 0px auto;
+}
+
+#content{
+    width: calc(80% - 20px);
+    background: #00ffee;
+    float:left;
+    min-height: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*Estilo Selector de class:*/
+.articulo{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    color: rgb(4,150,80);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.articulo h2{
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:black;
+}
+
+.vacio{
+    clear: both;
+}
