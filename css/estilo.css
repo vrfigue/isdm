@@ -5,7 +5,7 @@ body{
 }
 
 header{
-    background-color: rgb(72, 231, 28);
+    background-color: rgb(65, 79, 92);
     height: 100px;
     width: 100%;
     margin: 0;
@@ -15,7 +15,7 @@ header{
 }
 nav{
     height:50px;
-    background:rgb(101, 165, 83);
+    background:rgb(179, 198, 216);
     border: 1px solid;
     margin: 0px;
 }
@@ -30,7 +30,7 @@ nav ul li{
 aside{
     /*width: 20%;*/
     width: calc(20% - 20px);
-    background: rgb(72, 231, 28);
+    background: rgb(65, 79, 92);
     float:left;
     min-height: 500px;
     padding-left: 10px;
@@ -40,7 +40,7 @@ aside{
 footer{
     height: 100px;
     text-align: center;
-    background:rgb(72, 231, 28);
+    background:rgb(65, 79, 92);
     color: white;
     line-height: 100px;    
 }
@@ -65,7 +65,7 @@ footer{
 .articulo{
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-    color: rgb(4,150,80);
+    color: rgb(23, 33, 28);
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
